@@ -15,7 +15,7 @@ Run flutter pub get from the command line.
 ```
 
 ```bash
-Run the app on an Android or iOS device or emulator.```
+Run the app on an Android or iOS device or emulator.
 ```
 
 If you have no Flutter on your machine, get help [here](https://docs.flutter.dev/get-started/install)
