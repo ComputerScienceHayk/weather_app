@@ -44,7 +44,7 @@ class LoginPage extends StatelessWidget {
               ),
               const Spacer(),
               Image.asset(
-                'assets/images/proarea_light_logo.jpg',
+                'assets/images/logo.png',
                 scale: 2,
                 width: 100,
               ),
@@ -87,12 +87,12 @@ class LoginPage extends StatelessWidget {
                     MaterialPageRoute(builder: (context) => const WeatherPage(account: null,)),
                   );
                 },
+                style: ElevatedButton.styleFrom(
+                    primary: Colors.white, onPrimary: Colors.black, minimumSize: const Size(double.infinity, 50)),
                 child: Text(
                   t.withoutAccount,
                   style: const TextStyle(color: Colors.black),
                 ),
-                style: ElevatedButton.styleFrom(
-                    primary: Colors.white, onPrimary: Colors.black, minimumSize: const Size(double.infinity, 50)),
               ),
               const SizedBox(height: 40),
               RichText(

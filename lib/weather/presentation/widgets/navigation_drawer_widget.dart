@@ -43,23 +43,23 @@ class NavigationDrawerWidget extends StatelessWidget {
                     context.read<SignInCubit>().logout();
                     Get.off(() => const LoginPage());
                   },
+                  style: ElevatedButton.styleFrom(
+                      primary: Colors.white70, onPrimary: Colors.black, minimumSize: const Size(double.infinity, 50)),
                   child: Text(
                     t.logout,
                     style: const TextStyle(color: Colors.black),
                   ),
-                  style: ElevatedButton.styleFrom(
-                      primary: Colors.white70, onPrimary: Colors.black, minimumSize: const Size(double.infinity, 50)),
                 )
               : ElevatedButton(
                   onPressed: () {
                     // Get.off(() => const LoginPage());
                   },
+                  style: ElevatedButton.styleFrom(
+                      primary: Colors.white70, onPrimary: Colors.black, minimumSize: const Size(double.infinity, 50)),
                   child: Text(
                     t.signInWithAccount,
                     style: const TextStyle(color: Colors.black),
                   ),
-                  style: ElevatedButton.styleFrom(
-                      primary: Colors.white70, onPrimary: Colors.black, minimumSize: const Size(double.infinity, 50)),
                 ),
         ],
       ),

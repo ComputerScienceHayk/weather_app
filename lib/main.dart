@@ -12,10 +12,9 @@ import 'package:pro_area_flutter_task_v2/core/shared/service_locators.dart' as d
 import 'package:pro_area_flutter_task_v2/core/shared/service_locators.dart';
 import 'package:pro_area_flutter_task_v2/settings/application/locale/locale_cubit.dart';
 import 'package:pro_area_flutter_task_v2/weather/presentation/weather_page.dart';
-
-import 'auth/application/auth/auth_bloc.dart';
-import 'auth/application/sign_in/sign_in_cubit.dart';
-import 'core/shared/l10n/l10n.dart';
+import 'package:pro_area_flutter_task_v2/auth/application/auth/auth_bloc.dart';
+import 'package:pro_area_flutter_task_v2/auth/application/sign_in/sign_in_cubit.dart';
+import 'package:pro_area_flutter_task_v2/core/shared/l10n/l10n.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

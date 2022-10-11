@@ -63,14 +63,15 @@ class _WeatherPageState extends State<WeatherPage> {
             actions: [
               DropdownButton<int>(
                 value: selectedValue,
+                underline: const SizedBox.shrink(),
                 items: [
                   DropdownMenuItem(
-                    child: Text(t.daily),
                     value: 1,
+                    child: Text(t.daily),
                   ),
                   DropdownMenuItem(
-                    child: Text(t.hourly),
                     value: 2,
+                    child: Text(t.hourly),
                   ),
                 ],
                 onChanged: (value) {

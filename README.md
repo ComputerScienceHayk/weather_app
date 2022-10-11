@@ -1,8 +1,5 @@
 # Weather app
 
-### The Weather app is a test task for the Flutter Mobile Developer position.
-### You can read more about the task [here](https://docs.google.com/document/d/1MOKMiCarI4RO6DFtjBPRgbmontRfWKTuF_axK6CLuMs/edit#).
-
 ## How to Run
 
 ```bash
